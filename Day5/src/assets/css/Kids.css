@@ -1,0 +1,76 @@
+.kids_bimage{
+    padding: 20px;
+}
+.kids_head{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .kids_head_side{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .kids_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 40px;
+    height: 65vh;
+    width: 28%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .kids_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .kids_container {
+    padding: 2px 16px;
+    
+  }
+  .kids1_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 37px;
+    margin-left: 520px;
+    height: 65vh;
+    width: 28%;
+    position: absolute;
+    cursor: pointer;
+
+  }
+  .kids1_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .kids1_container {
+    padding: 2px 16px;
+    
+  }
+  .kids2_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 37px;
+    margin-left: 1050px;
+    height: 65vh;
+    width: 28%;
+    position: absolute;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  .kids2_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .kids2_container {
+    padding: 2px 16px;
+    
+  }
+  .kids_tax{
+    color: #009579;
+    position: absolute;
+    margin-bottom: 20px;
+  }

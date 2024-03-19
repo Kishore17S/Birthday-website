@@ -1,0 +1,32 @@
+.aboutus{
+    padding: 20px;
+}
+.aboutus_header {
+    color: #333;
+    padding: 10px;
+    /* text-align: center; */
+  }
+  .aboutusimage{
+    position: absolute;
+    /* margin-left: 120px; */
+    margin-top: 120px;
+  }
+  .aboutus_container {
+    max-width: 700px;
+    /* margin: 20px auto; */
+    /* padding: 0 20px; */
+    font-size: 20px;
+    font-weight: 200;
+    position: absolute;
+    position: fixed;
+    position: relative;
+  }
+  
+  .aboutushtag {
+    color: #009579;
+  }
+  .aboutus_move{
+    margin-left:750px;
+    margin-top: 70px;
+  }
+  
