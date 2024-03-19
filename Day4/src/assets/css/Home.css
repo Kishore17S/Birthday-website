@@ -1,0 +1,110 @@
+/* .home_background{
+    background-image: url('../../assets/images/homepage.jpeg');
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    height: 30vh;
+    width: 50%;
+    position: fixed;
+   position: relative; 
+  }  */
+
+
+  /* Home.css */
+  .home_background
+  {
+    padding: 20px;
+  }
+  .home_image{
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+  .home_head{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .home_head_side{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .home_categories
+  {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .home_card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 20px;
+    height: 65vh;
+    width: 28%;
+    position: absolute;
+    cursor: pointer;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .home_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .home_container {
+    padding: 2px 16px;
+    
+  }
+  .home1_card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-left: 520px;
+    height: 65vh;
+    width: 28%;
+    position: absolute;
+    cursor: pointer;
+
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .home1_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .home1_container {
+    padding: 2px 16px;
+    
+  }
+  .home2_card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-left: 1050px;
+    height: 65vh;
+    width: 28%;
+    position: absolute;
+    position: relative;
+    cursor: pointer;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .home2_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .home2_container {
+    padding: 2px 16px;
+    
+  }

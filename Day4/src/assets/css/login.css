@@ -1,0 +1,115 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* body{
+  min-height: 100vh;
+  width: 100%;
+  
+} */
+.login_background{
+  background-image: url('../images/bimg.jpg');
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  height: 100vh;
+  width: 50%;
+  position: fixed;
+}
+/* .container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px; 
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+} */
+.login_container{
+  border-radius: 10px;
+    padding: 60px;
+    width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
+    margin-left: 800px;
+}
+/* .container .registration{
+  display: none;
+}
+#check:checked ~ .registration{
+  display: block;
+}
+#check:checked ~ .login{
+  display: none;
+}
+#check{
+  display: none;
+}
+.container .form{
+  padding: 2rem;
+} */
+.login_header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+ .form input{
+   height: 60px;
+   width: 100%;
+   padding: 0 15px;
+   font-size: 17px;
+   margin-bottom: 1.3rem;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   outline: none;
+ }
+ .form input:focus{
+   box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+ }
+.login_a{
+  font-size: 16px;
+  color: #009579;
+  text-decoration: none;
+}
+.login_a:hover{
+  text-decoration: underline;
+}
+.form input.button{
+  color: #fff;
+  background: #009579;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.form input.button:hover{
+  background: #006653;
+}
+.login_signup{
+  font-size: 17px;
+  text-align: center;
+}
+.login_label{
+  color: #009579;
+  cursor: pointer;
+}
+.login_label:hover{
+  text-decoration: underline;
+}
+.login_logo{
+  border-radius: 100px;
+  height: 110px;
+    width: 110px;
+    margin-left: 150px;
+}

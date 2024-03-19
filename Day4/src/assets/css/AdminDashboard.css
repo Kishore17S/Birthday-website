@@ -1,0 +1,112 @@
+#navbarcard{
+    width: 84%;
+    margin-bottom: 20px;
+    padding-bottom: 27%;
+    margin-left: 220px;
+    
+  }
+  #spacetable{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  }
+  
+  #addbutton{
+    margin-top: 15px;
+    margin-left: 20px;
+  }
+  .bootnav{
+    margin-left: 70%;
+   
+  }
+  
+  .sidebardash {
+    background-color: #333;
+    color: #fff;
+    width: 220px;
+    height: 120%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+  }
+  /* HomeDash.css */
+  
+  /* Style the container */
+  .containerdash {
+    margin-top: 50px; /* Adjust as needed for vertical spacing */
+  }
+  
+  /* Style the individual cards */
+  .black-card {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 180px;
+  }
+  
+  /* Style the card titles */
+  .card-title {
+    font-size: 20px;
+  }
+  
+  /* Style the card text */
+  .card-text {
+    font-size: 16px;
+  }
+  
+  /* Style the additional cards */
+  
+  
+  /* Style the card titles in additional cards */
+  .additional-card1 .card-title,
+  .additional-card2 .card-title {
+    font-size: 20px;
+  }
+  
+  /* Style the card text in additional cards */
+  .additional-card1 .card-text,
+  .additional-card2 .card-text {
+    font-size: 16px;
+  }
+  
+  .custom-margin {
+    margin-right: 80%; /* Adjust the margin as needed */
+  }
+  .nav-link {
+    display: flex;
+    align-items: center; /* Vertically align items */
+  }
+  
+  .nav-icon {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  .sidebardash ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebardash li {
+    padding: 15px;
+  }
+  
+  .sidebardash a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebardash a:hover {
+    background-color: #555;
+  }
+  
+  .sidebardash svg {
+    margin-right: 10px;
+  }
